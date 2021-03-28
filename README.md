@@ -38,7 +38,7 @@ YOU SIMPLY WILL REALIZE THAT ALL THE ERRORS CAN BE HANDLED BY THE SIMPLE MACROS.
 THE PACKAGE CAN BE INSTALLED BY ADDING `:what_the_fuck_is_the_monad` TO YOUR LIST OF DEPENDENCIES IN `mix.exs`:
 ```elixir
 def deps do
-  [{:what_the_fuck_is_the_monad, "~> 0.1.0"}]
+  [{:what_the_fuck_is_the_monad, "~> 0.2.0"}]
 end
 ```
 

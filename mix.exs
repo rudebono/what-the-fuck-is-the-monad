@@ -4,7 +4,7 @@ defmodule WhatTheFuckIsTheMonad.MixProject do
   def project() do
     [
       {:app, :what_the_fuck_is_the_monad},
-      {:version, "0.1.0"},
+      {:version, "0.2.0"},
       {:elixir, "~> 1.7"},
       {:deps, deps()},
       {:package, package()},
@@ -23,7 +23,7 @@ defmodule WhatTheFuckIsTheMonad.MixProject do
 
   defp deps() do
     [
-      {:ex_doc, "~> 0.23", [{:only, :dev}, {:runtime, false}]}
+      {:ex_doc, "~> 0.24.1", [{:only, :dev}, {:runtime, false}]}
     ]
   end
 

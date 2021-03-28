@@ -49,4 +49,18 @@ defmodule WhatTheFuckIsTheMonad do
       end
     end
   end
+
+  defmacro lhs ~> rhs do
+    quote [{:location, :keep}] do
+      unquote(lhs)
+      |> case do
+        {:ok, r} ->
+          r
+
+        r ->
+          r
+      end
+      |> unquote(rhs)
+    end
+  end
 end
